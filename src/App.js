@@ -34,7 +34,7 @@ function App() {
 
     const initiator = palindromeAllformats(date, month, year); //
     initiator
-      ? setResult("ravo,  your 🎊 birthdate🎊 is a palindrome ")
+      ? setResult("Bravo,  your 🎊 birthdate🎊 is a palindrome ")
       : nextOrPrevious(year, month, date);
 
     function nextOrPrevious() {
@@ -46,9 +46,7 @@ function App() {
       );
       if (ctr1 > ctr2) {
         setResult(
-          `you missed palindrome date by ${ctr2} days, closest palindrome date was  ${
-            prevPalinDate.date
-          } / ${prevPalinDate.month + 1}   / ${prevPalinDate.year}`
+          `you missed palindrome date by ${ctr2} days, closest palindrome date was  ${prevPalinDate.date} / ${prevPalinDate.month}   / ${prevPalinDate.year}`
         );
       } else if (ctr2 > ctr1) {
         setResult(
