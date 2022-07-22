@@ -1,38 +1,49 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:ital,wght@0,300;0,400;0,600;0,800;1,100&display=swap");
+
+body {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  /* backdrop-filter: blur(1px); */
+
   text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  color: black;
+  margin: 1rem;
+  padding: 2rem;
+  font-family: "Bangers", cursive;
+}
+h4 {
+  font-size: 1.7rem;
+  font-weight: 300;
+  opacity: 0.5;
+}
+.input-container > input {
+  width: 20rem;
+  height: 3rem;
+  padding: 0.4rem;
+  margin: 1rem;
+  text-align: center;
+  border: 2px orange solid;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  height: 3rem;
+  width: 7rem;
+  border-radius: 1rem;
+  border: 2px orange solid;
+  font-size: 1.1rem;
+  opacity: 0.7;
+  margin: 1rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button:hover {
+  color: orange;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  padding: 2rem;
+  font-size: 1.1rem;
 }
