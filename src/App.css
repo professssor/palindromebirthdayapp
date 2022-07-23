@@ -47,3 +47,26 @@ p {
   padding: 2rem;
   font-size: 1.1rem;
 }
+
+/* footer styles */
+
+footer {
+  text-align: center;
+
+  width: 25%;
+  margin: auto;
+}
+a > * {
+  color: black;
+  font-size: 2rem;
+  margin-right: 0.4rem;
+}
+a:hover {
+  transform: scale(150%);
+  transition: all smooth;
+  transition-duration: 500ms;
+}
+footer > h6 {
+  font-size: 0.9rem;
+  font-weight: 300;
+}

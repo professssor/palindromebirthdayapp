@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import { FaTwitter, FaGithub } from "react-icons/fa";
+
 import "./App.css";
 import { convert, palindromeAllformats } from "./Helpers";
 
@@ -167,6 +169,21 @@ function App() {
         <button onClick={ClickHandler}>show</button>
       </div>
       <p>{result}</p>
+
+      <footer>
+        <section className="footer-links">
+          {/* footer link */}
+          <a href="https://twitter.com/coderGent">
+            {" "}
+            <FaTwitter />
+          </a>
+          <a href="https://github.com/professssor/">
+            {" "}
+            <FaGithub />
+          </a>
+        </section>
+        <h6> © | 2022 | san</h6>
+      </footer>
     </div>
   );
 }
