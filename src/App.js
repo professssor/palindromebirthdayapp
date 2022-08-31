@@ -59,7 +59,7 @@ function App() {
     <div className="App">
       <div className="header">
         <h1>Palindrome Birthday</h1>
-        <img src="bg.jpg" alt="" />
+        <img src="bg-min.jpg" alt="" />
       </div>
       <div className="input-container">
         <h4>
